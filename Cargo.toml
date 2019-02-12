@@ -1,0 +1,8 @@
+[package]
+name = "concat_in_compile_time_other_consts"
+version = "0.1.0"
+authors = ["loomaclin <loo.maclin@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+const-concat = { git = "https://github.com/Candunc/const-concat", branch = "patch-1" }
